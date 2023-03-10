@@ -49,7 +49,10 @@ public class MedicionController {
     }
 
     public ModelAndView reporte(Request request, Response response){
+        Usuario usuario = repoUsuario.buscar(request.session().attribute("id"));
+
         Map<String, Object> parametros = new HashMap<>();
+        parametros.put("usuario", usuario);
         return new ModelAndView(parametros, "reporte.hbs");
     }
 

@@ -1,0 +1,61 @@
+{
+  "actividades":
+  [
+    {
+      "nombre": "Combustion fija",
+      "alcance": "Directa",
+      "tiposConsumo": [
+        {
+          "nombre": "Gas natural",
+          "unidad": "m3",
+          "factorEmision": {
+            "valor": "4",
+            "unidad": "m3"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Combustion movil",
+      "alcance": "Indirecta",
+      "tiposConsumo": [
+        {
+          "nombre": "Gasoil",
+          "unidad": "lts",
+          "factorEmision": {
+            "valor": "4",
+            "unidad": "lts"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Electricidad adquirida y consumida",
+      "alcance": "Indirecta",
+      "tiposConsumo": [
+        {
+          "nombre": "Electricidad",
+          "unidad": "Kwh",
+          "factorEmision": {
+            "valor": "4",
+            "unidad": "Kwh"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Traslado de miembros de la Org",
+      "alcance": "NoControladas",
+      "tiposConsumo": [
+        {
+          "nombre": "Distancia media recorrida",
+          "unidad": "km",
+          "factorEmision": {
+            "valor": "2",
+            "unidad": "km"
+          }
+        }
+      ]
+    }
+  ]
+}

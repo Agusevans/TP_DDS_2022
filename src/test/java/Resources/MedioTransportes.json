@@ -1,0 +1,105 @@
+{
+  "transportes":
+  [
+    {
+      "nombre": "Auto personal",
+      "usaCombustible": true,
+      "tipoVehiculo": "auto",
+      "tipoCombustible": "nafta"
+    },
+    {
+      "nombre": "Caminar"
+    },
+    {
+      "nombre": "Bicicleta"
+    },
+    {
+      "nombre": "Colectivo 74",
+      "usaCombustible": true,
+      "linea": "74",
+      "tipo": "colectivo",
+      "paradas": [
+        {
+          "nombre": "obelisco",
+          "punto": [
+            {
+              "latitud": 10,
+              "longitud": 10
+            }
+          ]
+        },
+        {
+          "nombre": "alem",
+          "punto": [
+            {
+              "latitud": 11,
+              "longitud": 11
+            }
+          ]
+        },
+        {
+          "nombre": "9 de julio",
+          "punto": [
+            {
+              "latitud": 12,
+              "longitud": 12
+            }
+          ]
+        },
+        {
+          "nombre": "medrano",
+          "punto": [
+            {
+              "latitud": 13,
+              "longitud": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Colectivo 75",
+      "usaCombustible": true,
+      "linea": "75",
+      "tipo": "colectivo",
+      "paradas": [
+        {
+          "nombre": "obelisco",
+          "punto": [
+            {
+              "latitud": 14,
+              "longitud": 14
+            }
+          ]
+        },
+        {
+          "nombre": "alem",
+          "punto": [
+            {
+              "latitud": 15,
+              "longitud": 15
+            }
+          ]
+        },
+        {
+          "nombre": "9 de julio",
+          "punto": [
+            {
+              "latitud": 16,
+              "longitud": 16
+            }
+          ]
+        },
+        {
+          "nombre": "medrano",
+          "punto": [
+            {
+              "latitud": 17,
+              "longitud": 17
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

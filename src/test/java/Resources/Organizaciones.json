@@ -1,0 +1,36 @@
+{
+  "razonSocial": "DestruyeMundo",
+  "tipo": "Gubernamental",
+  "clasificacion": "Ministerio",
+  "ubicacion": {
+    "latitud":1,
+    "longitud":8
+  },
+  "sectores": [
+    {
+      "nombre": "Nucleares",
+      "descripcion": "Hacen algo",
+      "miembros": [
+        {
+          "nombre": "Megamente",
+          "apellido": "Villano",
+          "tipoDocumento":"DNI",
+          "nroDocumento":"6873211"
+        },
+        {
+          "nombre": "miembro2",
+          "apellido": "Villano",
+          "tipoDocumento":"DNI",
+          "nroDocumento":"6873212"
+        },
+        {
+          "nombre": "miembro3",
+          "apellido": "Villano",
+          "tipoDocumento":"DNI",
+          "nroDocumento":"6873213"
+        }
+      ]
+    }
+  ]
+
+}
